@@ -13,7 +13,7 @@ const RootRoutes = () => {
       
   return (
     <>
-     <HashRouter>
+     
       <Routes>
         {/* 공개 페이지 */}
         <Route path="/map" element={<PharmacyFind />} />
@@ -21,7 +21,6 @@ const RootRoutes = () => {
         {/* 그 외 URI는 무조건 로그인으로 */}
         
       </Routes>
-    </HashRouter>   
     </>
   );
 };
