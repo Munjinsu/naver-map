@@ -1,4 +1,4 @@
-import RootRoutes from './routes';
+import RootRoutes from './routes/RootRoutes';
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import './index.css';
