@@ -8,9 +8,7 @@ import PharmacyFind from '../pages/map/PharmacyFind'; // 처방전 확인하기 
 
 const RootRoutes = () => {
 
-  const location = useLocation();
 
-      
   return (
     <>
      

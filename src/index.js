@@ -9,11 +9,11 @@ import App from './App';
 const root = createRoot(document.getElementById('root'));
 root.render(
     <CookiesProvider>
-        <BrowserRouter>
+       
         <HashRouter>
             <App />
         </HashRouter>
-        </BrowserRouter>
+        
     </CookiesProvider>
 );
 
