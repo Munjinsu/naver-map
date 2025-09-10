@@ -1,0 +1,859 @@
+[
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "카페 안젤로 (1층)",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_01.png",
+    "tel": "02-2258-6431",
+    "business_hours": ["월 ~ 토 : 오전 7시 ~ 오후 9시", "일, 공휴일 : 오전 7시 30분 ~ 오후 9시"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "퀴즈노스",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_19.png",
+    "tel": "02-2258-6433",
+    "business_hours": ["월 ~ 토 : 오전 8시 ~ 오후 8시", "일, 공휴일 : 오전 8시 ~ 오후 8시"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "그랑미셸 (푸드코트)",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_03.png",
+    "tel": "02-2258-6432",
+    "business_hours": ["월 ~ 토 : 오전 7시 ~ 오후 9시", "일, 공휴일 : 오전 7시 ~ 오후 9시"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "카페 안젤로보노 (지하 1층)",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_05.png",
+    "tel": "02-2258-6431",
+    "business_hours": ["월 ~ 토 : 오전 7시 ~ 오후 9시", "일, 공휴일 : 오전 8시 ~ 오후 8시"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "롤링핀",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_20.png",
+    "tel": "02-2258-6435",
+    "business_hours": ["월 ~ 토 : 오전 7시 ~ 오후 8시", "일, 공휴일 : 오전 7시 ~ 오후 8시"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "범산목장",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_09.png",
+    "tel": "02-534-7854",
+    "business_hours": ["월 ~ 금 : 오전 9시 ~ 오후 9시", "토, 일, 공휴일 : 오전 9시 30분 ~ 오후 8시 30분"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "title": "평화의료기",
+    "hsptl_Nm": "서울성모병원",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_10.png",
+    "tel": "02-2258-6437",
+    "business_hours": ["월 ~ 금 : 오전 8시 30분 ~ 오후 7시", "토 : 오전 8시 30분 ~ 오후 3시 30분", "일, 공휴일 : 휴무"],
+    "location": "",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "안경원",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_11.png",
+    "tel": "02-2258-6438",
+    "business_hours": ["월 ~ 토 : 오전 9시 ~ 오후 8시", "일, 공휴일 : 오전 10시 ~ 오후 7시"],
+    "location": "",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "서점",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_12.png",
+    "tel": "02-2258-6439",
+    "business_hours": ["월 ~ 토 : 오전 9시 ~ 오후 6시", "일, 공휴일 : 휴무"],
+    "location": "",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "올가홀푸드",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_13.png",
+    "tel": "02-3478-6209",
+    "business_hours": ["전일 : 오전 8시 30분 ~ 오후 9시 30분"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "로이주 주스",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_14.png",
+    "tel": "02-537-5669",
+    "business_hours": ["월 ~ 금 : 오전 8시 30분 ~ 오후 7시", "토 : 오전 8시 30분 ~ 오후 3시 30분"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "이브케어",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_15.png",
+    "tel": "02-2258-6437",
+    "business_hours": ["월 ~ 금 : 오전 9시 ~ 오후 6시", "토 (둘째·넷째주) : 오전 9시 ~ 오후 1시", "일, 공휴일 : 휴무"],
+    "location": "",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "차알",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_16.png",
+    "tel": "02-6338-1671",
+    "business_hours": ["전일 : 오전 10시 ~ 오후 7시 30분"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "명동칼국수",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_17.png",
+    "tel": "02-533-6527",
+    "business_hours": ["전일 : 오전 10시 ~ 오후 9시"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "이발소",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_18.png",
+    "tel": "02-2258-6415",
+    "business_hours": ["월 ~ 금 : 오전 8시 ~ 오후 7시", "토 : 오전 8시 ~ 오후 3시", "일, 공휴일 : 휴무"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "신협(지하 1층)",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_21.png",
+    "tel": "02-2258-5909~10",
+    "business_hours": ["월 ~ 금 : 오전 9시 ~ 오후 4시", "토, 일, 공휴일 : 휴무"],
+    "location": "",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "생활용품(지하 1층 편의점 내)",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_22.png",
+    "tel": "02-2258-5916",
+    "business_hours": ["월 ~ 금 : 오전 9시 ~ 오후 7시", "토 : 오전 9시 ~ 오후 2시", "일, 공휴일 : 휴무"],
+    "location": "",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "편의점(지하 1층)",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_23.png",
+    "tel": "02-537-3424",
+    "business_hours": ["연중무휴"],
+    "location": "",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "공차",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_24.png",
+    "tel": "02-536-7775",
+    "business_hours": ["영업시간 : 오전 7시 ~ 오후 8시(무휴)"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "스쿨푸드",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_25.png",
+    "tel": "02-2258-5994",
+    "business_hours": ["영업시간 : 오전 7시 ~ 오후 8시(무휴)"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "012",
+    "hsptl_Nm": "서울성모병원",
+    "title": "샐러드박스",
+    "img_url": "https://www.cmcseoul.or.kr/images/hospitalguide/img_amenities_26.png",
+    "tel": "02-2258-5993",
+    "business_hours": ["영업시간 : 오전 7시 ~ 오후 8시(무휴)"],
+    "location": "",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "011",
+    "hsptl_Nm": "여의도성모병원",
+    "title": "카페 안젤로",
+    "img_url": "https://www.cmcsungmo.or.kr/images/hospitalguide/img_amenities02.png",
+    "tel": "02-3779-2187",
+    "business_hours": ["평일 : 오전 7시 ~ 오후 9시", "토요일 : 오전 7시 ~ 오후 8시 30분", "일요일, 공휴일 :오전 7시 ~ 오후 8시"],
+    "location": "본관 1층, 2층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "011",
+    "hsptl_Nm": "여의도성모병원",
+    "title": "세븐일레븐(편의점)",
+    "img_url": "https://www.cmcsungmo.or.kr/images/hospitalguide/img_amenities05.png",
+    "tel": "070-4257-5185",
+    "business_hours": ["연중무휴, 24시간"],
+    "location": "본관 지하 1층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "011",
+    "hsptl_Nm": "여의도성모병원",
+    "title": "안경점",
+    "img_url": "https://www.cmcsungmo.or.kr/images/hospitalguide/img_amenities07.png",
+    "tel": "02-537-1394",
+    "business_hours": ["월 ~ 금 : 오전 8시 ~ 오후 6시", "토요일 : 오전 8시 ~ 오후 3시"],
+    "location": "본관 1층(안센터 내)",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "그랑미셸(신관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities02.png",
+    "tel": "031-820-3737",
+    "business_hours": ["평일 : 07:30 ~ 20:00", "토요일 : 08:00 ~ 16:00", "일, 공휴일 : 휴무"],
+    "location": "건물 2층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "테이블B 베이커리(신관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities03.png",
+    "tel": "031-820-5254",
+    "business_hours": ["평일 : 07:00 ~ 20:00", "토요일 : 07:00 ~ 14:00", "일, 공휴일 : 휴무"],
+    "location": "외래식당 맞은 편 (건물 2층)",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "맛깔참죽(신관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities19.png",
+    "tel": "031-820-3736, 821-6233, 010-7766-8991",
+    "business_hours": ["평일 : 07:00 ~ 20:00", "토요일 : 09:00 ~ 12:00", "일, 공휴일 : 휴무"],
+    "location": "외래식당 맞은 편 (건물 2층)",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "평화드림 의료기판매점(신관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities05.png",
+    "tel": "031-820-3605",
+    "business_hours": ["평일 : 08:00 ~ 18:00", "토요일 : 08:00 ~ 13:00", "일, 공휴일 : 휴무"],
+    "location": "외래식당 맞은 편 (건물 2층)",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "카페안젤로(본관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities07.png",
+    "tel": "031-820-5253",
+    "business_hours": ["평일 : 07:00 ~ 19:00", "토요일 : 08:00 ~ 18:00", "일, 공휴일 : 09:00 ~ 17:00"],
+    "location": "원내약국 옆 (건물 1층)",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "무인 민원 발급기(본관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities20.png",
+    "tel": "031-820-5253",
+    "business_hours": ["평일/주말, 공휴일 24시간"],
+    "location": "제증명 창구 옆 (건물 1층)",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "우리은행(본관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities09.png",
+    "tel": "031-820-3450",
+    "business_hours": ["월 ~ 금 : 09:30 ~ 15:30","주말, 공휴일 : 휴무"],
+    "location": "영양팀 옆 (건물 지하 1층)",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "신협(본관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities09.png",
+    "tel": "031-820-3450",
+    "business_hours": ["월 ~ 금 : 09:30 ~ 15:30","주말, 공휴일 : 휴무"],
+    "location": "영양팀 옆 (건물 지하 1층)",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "무인우편기기(본관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities12.png",
+    "tel": "",
+    "business_hours": ["우편물 접수 : 오전 8시 ~ 오후 10시","우편물 수거 : 평일 오전 9시"],
+    "location": "중앙 엘리베이터 홀 (건물 지하 1층)",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "24시간 편의점(신관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities12.png",
+    "tel": "031-820-5251",
+    "business_hours": ["24시간 연중무휴"],
+    "location": "안 센터 맞은 편 (건물 지하 1층)",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "013",
+    "hsptl_Nm": "의정부성모병원",
+    "title": "성모 안경원(신관)",
+    "img_url": "https://www.cmcujb.or.kr/images/hospitalguide/img_amenities04.png",
+    "tel": "031-820-5255",
+    "business_hours": ["월 ~ 금 : 오전 8시 ~ 오후 5시", "토 : 오전 8시 ~ 오후 12시", "일, 공휴일 : 휴무"],
+    "location": "안 센터 맞은 편 (건물 지하 1층)",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "014",
+    "hsptl_Nm": "부천성모병원",
+    "title": "푸드코트",
+    "img_url": "https://www.cmcbucheon.or.kr/images/hospitalguide/img_amenities11.png",
+    "tel": "032-341-0600",
+    "business_hours": ["평 일 : 오전 7시 30분 ~ 오후 8시", "(라스트오더 오후 7시 30분)", "토요일/공휴일/일요일 : 휴무"],
+    "location": "성심관 지하 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "014",
+    "hsptl_Nm": "부천성모병원",
+    "title": "카페 안젤로",
+    "img_url": "https://www.cmcbucheon.or.kr/images/hospitalguide/img_amenities06.png",
+    "tel": "032-344-7108",
+    "business_hours": ["평 일 : 오전 7시 ~ 오후 8시", "토요일 : 오전 8시 ~ 오후 5시", "일요일 : 오전 8시 ~ 오후 4시"],
+    "location": "성모관 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "014",
+    "hsptl_Nm": "부천성모병원",
+    "title": "세븐일레븐",
+    "img_url": "https://www.cmcbucheon.or.kr/images/hospitalguide/img_amenities05.png",
+    "tel": "032-340-2244",
+    "business_hours": ["24시간"],
+    "location": "성심관 지하 1층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "014",
+    "hsptl_Nm": "부천성모병원",
+    "title": "의료기구 판매",
+    "img_url": "https://www.cmcbucheon.or.kr/images/hospitalguide/img_amenities07.png",
+    "tel": "032-340-2632",
+    "business_hours": ["월 ~ 금(오전 8시 30분 ~ 오후 5시 30분)"],
+    "location": "성심관 지하 1층",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "014",
+    "hsptl_Nm": "부천성모병원",
+    "title": "우리은행 출장소",
+    "img_url": "https://www.cmcbucheon.or.kr/images/hospitalguide/img_amenities01.png",
+    "tel": "032-340-7324",
+    "business_hours": ["월 ~ 금 : 오전 9시 ~ 오후 4시"],
+    "location": "성심관 지하 1층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "014",
+    "hsptl_Nm": "부천성모병원",
+    "title": "우리은행 ATM",
+    "img_url": "https://www.cmcbucheon.or.kr/images/hospitalguide/img_amenities01.png",
+    "tel": "032-340-7324",
+    "business_hours": ["24시간"],
+    "location": "성모관 1층, 성심관 지하 1층, 성요셉관 1층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "014",
+    "hsptl_Nm": "부천성모병원",
+    "title": "하나은행 ATM",
+    "img_url": "https://www.cmcbucheon.or.kr/images/hospitalguide/img_amenities04.png",
+    "tel": "1577-4655",
+    "business_hours": ["24시간"],
+    "location": "성요셉관 1층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "014",
+    "hsptl_Nm": "부천성모병원",
+    "title": "카페쎄미",
+    "img_url": "https://www.cmcbucheon.or.kr/images/hospitalguide/img_amenities12.png",
+    "tel": "1577-4655",
+    "business_hours": ["평일 : 07:30 ~ 20:00 (라스트오더 오후 7시)", "토요일 : 07:30 ~ 15:00 (라스트오더 오후 2시)", "일요일 공휴일 휴무"],
+    "location": "성요셉관 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "푸드스퀘어·미스터 호떡",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities01.png",
+    "tel": "02-2030-4926",
+    "business_hours": ["평일 : 07:30 ~ 19:30", "토 : 08:00 ~ 16:00", "일·공휴일 : 11:00 ~ 19:00"],
+    "location": "지하 2층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "브레댄코",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities02.png",
+    "tel": "02-352-6001",
+    "business_hours": ["전일 : 06:00 ~ 21:00"],
+    "location": "지하 2층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "백미당",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities03.png",
+    "tel": "",
+    "business_hours": ["평일 : 08:00 ~ 20:00", "토·일·공휴일 : 휴무"],
+    "location": "지하 2층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "명동칼국수·샤브샤브",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities04.png",
+    "tel": "02-2030-4927",
+    "business_hours": ["평일 : 10:00 ~ 20:00", "토·일·공휴일 : 휴무"],
+    "location": "지하 2층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "마성떡볶기",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities20.png",
+    "tel": "010-6758-3424",
+    "business_hours": ["평일 : 07:30 ~ 19:30", "토 : 08:00 ~ 16:00", "일·공휴일 : 11:00 ~ 19:00"],
+    "location": "지하 2층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "사라샵",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities21.png",
+    "tel": "",
+    "business_hours": ["평일 : 08:00 ~ 18:00", "토·일·공휴일 : 휴무"],
+    "location": "지하 2층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "바버샵",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities08.png",
+    "tel": "02-2030-4929",
+    "business_hours": ["평일 : 08:00 ~ 17:00", "토 : 08:00 ~ 12:00", "일·공휴일 : 휴무"],
+    "location": "지하 2층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "카페 보노",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities09.png",
+    "tel": "02-2030-4930",
+    "business_hours": ["평일·토요일 : 07:00 ~ 18:00", "일·공휴일 : 08:00 ~ 17:00"],
+    "location": "지하 2층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "은평성모안경",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities10.png",
+    "tel": "02-2030-4931",
+    "business_hours": ["평일 : 08:00 ~ 18:00", "토 : 09:00 ~ 13:00", "일·공휴일 : 휴무"],
+    "location": "지하 2층",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "평화의료기기",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities11.png",
+    "tel": "02-2030-4932",
+    "business_hours": ["평일 : 08:30 ~ 18:00", "토·일·공휴일 : 휴무"],
+    "location": "지하 2층",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "코인세탁 빨래방",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities12.png",
+    "tel": "02-356-7456",
+    "business_hours": ["24시간"],
+    "location": "지하 2층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "CU편의점",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities15.png",
+    "tel": "",
+    "business_hours": ["24시간 운영"],
+    "location": "지하 2층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "신협",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities16.png",
+    "tel": "02-2030-4993~4",
+    "business_hours": ["평일 : 08:30 ~ 17:00", "토·일·공휴일 : 휴무"],
+    "location": "지하 2층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "우리은행",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities17.png",
+    "tel": "02-351-4842",
+    "business_hours": ["평일 : 09:00 ~ 16:00", "토·일·공휴일 : 휴무"],
+    "location": "지하 2층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "비지니스룸",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities17.png",
+    "tel": "",
+    "business_hours": ["평일 : 09:00 ~ 18:00 (점심시간 : 12:00 ~ 13:00)", "토·일·공휴일 : 휴무"],
+    "location": "지하 2층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "던킨",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities19.png",
+    "tel": "0507-1311-5969",
+    "business_hours": ["평일 : 07:00 ~ 19:00", "토 : 07:00 ~ 16:00", "일·공휴일 : 09:00 ~ 15:00"],
+    "location": "G층(지하 1층)",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "카페 안젤로",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities13.png",
+    "tel": "02-2030-4933",
+    "business_hours": ["평일 : 07:00 ~ 17:00", "토·일·공휴일 : 휴무"],
+    "location": "1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "015",
+    "hsptl_Nm": "은평성모병원",
+    "title": "앤티앤스",
+    "img_url": "https://www.cmcep.or.kr/images/hospitalguide/img_amenities18.png",
+    "tel": "",
+    "business_hours": ["평일 : 07:30 ~ 18:00", "토 : 08:00 ~ 12:30", "일·공휴일 : 휴무"],
+    "location": "1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "우리은행",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/img_banner01.png",
+    "tel": "032-506-3046",
+    "business_hours": ["월 ~ 금 : 09:00 ~ 16:00"],
+    "location": "본관1층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "자동화코너(ATM기기)",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/img_banner01.png",
+    "tel": "",
+    "business_hours": ["전일 : 07:00 ~ 23:30"],
+    "location": "본관 1층, 뇌병원 1층, 라파엘관 1층",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "고메브릿지(푸드코트)",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/gourmet.png",
+    "tel": "",
+    "business_hours": ["월 ~ 금 : 08:00 ~ 18:00", "주말(공휴일) : 휴무"],
+    "location": "본관 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "CU 편의점",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/img_banner04.png",
+    "tel": "070-7537-2330",
+    "business_hours": ["전일 : 24시간"],
+    "location": "신관 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "SM의료기",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/img_banner05.png",
+    "tel": "032-280-5075",
+    "business_hours": ["월 ~ 금 : 08:00 ~ 19:30", "토요일 : 08:00 ~ 15:00", "일요일 : 휴무"],
+    "location": "본관 1층",
+    "amenity_type":"B"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "프란츠커피",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/img_banner06.png",
+    "tel": "032-511-0707",
+    "business_hours": ["월 ~ 금 : 07:00 ~ 19:30", "토요일 : 07:00 ~ 19:00", "일요일 : 08:30 ~ 19:00"],
+    "location": "신관 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "한촌설렁탕",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/img_banner10.png",
+    "tel": "032-525-1393",
+    "business_hours": ["월 ~ 금 : 07:00 ~ 21:00", "주말(공휴일) : 08:00 ~ 21:00"],
+    "location": "뇌병원 지하 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "스타벅스",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/starbucks.png",
+    "tel": "032-361-4198",
+    "business_hours": ["월 ~ 일 : 07:00 ~ 21:00"],
+    "location": "뇌병원 지하 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "장례예식부",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/img_banner13.png",
+    "tel": "032-517-0710~1",
+    "business_hours": ["연중무휴"],
+    "location": "별관 옆",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "테이블비",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/img_banner15.png",
+    "tel": "032-501-3679",
+    "business_hours": ["월 ~ 금 : 07:00 ~ 21:00", "토요일 및 공휴일 : 08:00 ~ 17:00", "일요일 휴무" ],
+    "location": "뇌병원 지하 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "016",
+    "hsptl_Nm": "인천성모병원",
+    "title": "카페 프레시",
+    "img_url": "https://www.cmcism.or.kr/images/amenities/img_banner16.png",
+    "tel": "070-8715-0015",
+    "business_hours": ["월 ~ 금 : 08:00 ~ 17:30", "주말·공휴일 : 휴무"],
+    "location": "라파엘관 1층",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "수유방",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-1.png",
+    "tel": "",
+    "business_hours": [],
+    "location": "1층 안내데스크 옆에 위치",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "기도실",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-2.png",
+    "tel": "",
+    "business_hours": [],
+    "location": "1층 피부과 옆",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "고객상담 및 장애인 · 노약자 안내",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-3.png",
+    "tel": "042-220-9055",
+    "business_hours": [],
+    "location": "1층 로비 고객지원센터",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "유모차, 휠체어 대여 서비스",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-4.png",
+    "tel": "",
+    "business_hours": [],
+    "location": "1층 안내 데스크/1층 로비 고객지원센터",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "편의점",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-5.png",
+    "tel": "",
+    "business_hours": [],
+    "location": "1층 택시승강장 출입구 안 쪽",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "우리은행",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-6.png",
+    "tel": "",
+    "business_hours": ["09:00 ~ 16:00 (월~금)"],
+    "location": "1층 택시승강장 출입구 쪽",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "우체국",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-7.png",
+    "tel": "",
+    "business_hours": ["09:00~18:00(하절기)", "09:00~17:00(동절기)"],
+    "location": "지하 주차장 진입로 옆",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "오니기리와 이규동",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-8.png",
+    "tel": "",
+    "business_hours": ["08:00~20:00(평일)", "09:20~20:00(주말)"],
+    "location": "1층 택시승강장 출입구 쪽",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "본죽",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-9.png",
+    "tel": "",
+    "business_hours": ["09:00~20:00(변동가능)"],
+    "location": "1층 택시승강장 출입구 쪽",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "커피전문점(파스구찌)",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-coffeeshop.png",
+    "tel": "",
+    "business_hours": ["08:00~21:00 (휴일없음)"],
+    "location": "1층 지상주차장 출입구",
+    "amenity_type":"A"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "소아 놀이·대기공간",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-13.png",
+    "tel": "",
+    "business_hours": ["병동 입원 어린이 및 외래를 이용하신 분들의 이용이 가능합니다."],
+    "location": "성모관 7층 소아청소년과 병동 내 위치, 2층 소아청소년과 외래 위치",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "야외쉼터",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-14.png",
+    "tel": "",
+    "business_hours": ["7층은 어린이 전용쉼터로 충격흡수 바닥재가 깔려 있습니다."],
+    "location": "1층 입구, 정형외과 왼쪽, 31병동과 33병동 사이, 33병동, 51병동, 71병동",
+    "amenity_type":"C"   
+  },
+  {
+    "hsptl_cd": "018",
+    "hsptl_Nm": "대전성모병원",
+    "title": "상지홀",
+    "img_url": "https://www.cmcdj.or.kr/images/pic-amenities-15.png",
+    "tel": "",
+    "business_hours": ["세미나, 교육 등에 이용 가능합니다."],
+    "location": "상지관 9층",
+    "amenity_type":"C"   
+  }
+
+  
+  
+
+
+
+
+]

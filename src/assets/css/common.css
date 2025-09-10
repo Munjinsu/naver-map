@@ -1,0 +1,775 @@
+@charset "utf-8";
+/*-------------------------------------------------------------------
+	분류그룹 : Normalize
+	속성순서 : 레이아웃, 박스 모델, 배경, 폰트/정렬, 기타
+-------------------------------------------------------------------*/
+
+/* ===   Tip  ===  */
+/*
+    * 모바일 클릭시 기본 파란색 배경 제거
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+*/
+
+/* ------ font ------ */
+html {font-size: 62.5%;}
+body {font-size: 1.6rem; line-height: 1.5;}
+/* ------ all style ------ */
+* {line-height: 1.5; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+html, body {color: var(--color-main-gray); word-break: keep-all; overflow-wrap: break-word; font-family: 'Pretendard', 'Noto Sans KR', sans-serif;}
+html, body {-webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -o-text-size-adjust: none;} /* 폰트확대X */
+/* ------ tag ------ */
+body, div, p, h1, h2, h3, h4, h5, h6,
+ul, ol, li, dl, dt, dd, table, th, td,
+form, fieldset, legend, input, textarea, a, button, select,
+span, strong, em, label, ::before, ::after {margin:0px; padding:0px; line-height: inherit; box-sizing: border-box;}
+header, footer, article, aside, details, figcaption, figure, hgroup, main, menu, nav, section {display: block; margin:0px; padding:0px;}
+pre {font-family: inherit;}
+table, th, td {border-spacing: 0px; border-collapse:collapse;}
+img, fieldset {max-width: 100%; border: 0px;}
+em {font-style: normal;}
+/* ------ list ------ */
+ul, ol, dl, dt, dd {list-style:none;}
+/* ------ link ------*/
+a, a:link, a:visited, a:active, a:hover, a:focus {color: inherit; text-decoration:none;}
+/* ------ form ------ */
+input, textarea, select, button {border: 0; font-family: inherit;}
+input[type=text], input[type=tel], input[type=password], input[type=file], input[type=number], input[type=email], input[type=date], input[type=search], select,
+textarea {vertical-align:middle; -webkit-box-shadow: none; box-shadow: none; appearance: none; -webkit-appearance: none; -moz-appearance: none;}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {-webkit-box-shadow: 0 0 0 30px #ffffff inset !important; -webkit-text-fill-color: inherit; transition: background-color 5000s ease-in-out 0s;} /* 자동완성 */
+input[type="text"]::-ms-clear {display: none;}
+input[type="number"] {-moz-appearance: textfield;}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {margin: 0; appearance: none; -webkit-appearance: none;}
+button, input[type="button"], input[type="submit"] {cursor: pointer;}
+button {background-color: transparent;}
+/* IE 10, 11의 네이티브 화살표 숨기기 */
+select::-ms-expand {display: none;}
+
+/*-------------------------------------------------------------------
+	@공통변수
+-------------------------------------------------------------------*/
+:root {
+    /* ------ 여백 ------ */
+    --sp-00 : 0;
+    --sp-02 : 0.2rem;
+    --sp-04 : 0.4rem;
+    --sp-06 : 0.6rem;
+    --sp-08 : 0.8rem;
+    --sp-10 : 1rem;
+    --sp-12 : 1.2rem;
+    --sp-14 : 1.4rem;
+    --sp-16 : 1.6rem;
+    --sp-18 : 1.8rem;
+    --sp-20 : 2rem;
+    --sp-22 : 2.2rem;
+    --sp-24 : 2.4rem;
+    --sp-26 : 2.6rem;
+    --sp-28 : 2.8rem;
+    --sp-30 : 3rem;
+    --sp-32 : 3.2rem;
+    --sp-34 : 3.4rem;
+    --sp-36 : 3.6rem;
+    --sp-38 : 3.8rem;
+    --sp-40 : 4rem;
+    --sp-42 : 4.2rem;
+    --sp-44 : 4.4rem;
+    --sp-46 : 4.6rem;
+    --sp-48 : 4.8rem;
+    --sp-50 : 5rem;
+    --sp-52 : 5.2rem;
+    --sp-54 : 5.4rem;
+    --sp-56 : 5.6rem;
+    --sp-58 : 5.8rem;
+    --sp-60 : 6rem;
+    --sp-62 : 6.2rem;
+    --sp-64 : 6.4rem;
+    --sp-68 : 6.8rem;
+    --sp-70 : 7rem;
+    --sp-72 : 7.2rem;
+    --sp-76 : 7.6rem;
+    --sp-80 : 8rem;
+    --sp-84 : 8.4rem;
+    --sp-86 : 8.6rem;
+    --sp-88 : 8.8rem;
+    --sp-90 : 9rem;
+    --sp-92 : 9.2rem;
+    --sp-96 : 9.6rem;
+    --sp-100 : 10rem;
+    --sp-120 : 12rem;
+    --sp-200 : 20rem;
+
+    /* ------ 색상 ------ */
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    --color-danger: #E8003B;
+    --color-danger-5: #FEECF0;
+    --color-danger-10: #FCD4DE;
+    --color-danger-20: #F799B1;
+    --color-danger-30: #F36689;
+    --color-danger-50: #E8003B;
+    --color-danger-40: #EF3E5E;
+    --color-danger-60: #D50136;
+    --color-danger-70: #BD0023;
+    --color-danger-80: #5E0018;
+    --color-danger-90: #2F000C;
+
+    --color-warning: #FFB724;
+    --color-warning-5: #FFF8E9;
+    --color-warning-10: #FFEAC1;
+    --color-warning-20: #FFE2A7;
+    --color-warning-30: #FFD47C;
+    --color-warning-50: #FFB724;
+    --color-warning-40: #FFC550;
+    --color-warning-60: #98690A;
+    --color-warning-70: #66490E;
+    --color-warning-80: #4D370B;
+    --color-warning-90: #332507;
+
+    --color-success: #008A1E;
+    --color-success-5: #EEF7F0;
+    --color-success-10: #CEE9D4;
+    --color-success-20: #B2DCBB;
+    --color-success-30: #8CCA99;
+    --color-success-40: #33A14B;
+    --color-success-50: #008A1E;
+    --color-success-60: #006E18;
+    --color-success-70: #005312;
+    --color-success-80: #00370C;
+    --color-success-90: #002207;
+
+    --color-info: #2768FF;
+    --color-info-5: #E9F0FF;
+    --color-info-10: #D4E1FF;
+    --color-info-20: #A9C3FF;
+    --color-info-30: #7DA4FF;
+    --color-info-40: #5286FF;
+    --color-info-50: #2768FF;
+    --color-info-60: #1F53CC;
+    --color-info-70: #173E99;
+    --color-info-80: #0C1F4D;
+    --color-info-90: #040A1A;
+
+    /* 색상 > primary */
+    --color-primary: #246BEB;
+    --color-primary-5: #EFF5FF;
+    --color-primary-10: #D3E1FB;
+    --color-primary-20: #A7C4F7;
+    --color-primary-30: #7CA6F3;
+    --color-primary-40: #5089EF;
+    --color-primary-50: #246BEB;
+    --color-primary-60: #1D56BC;
+    --color-primary-70: #16408D;
+    --color-primary-80: #0E2B5E;
+    --color-primary-90: #07152F;
+    /* 색상 > secondary */
+    --color-secondary: #003675;
+    --color-secondary-5: #EDF1F5;
+    --color-secondary-10: #CDD7E4;
+    --color-secondary-20: #B4C4D6;
+    --color-secondary-30: #99B0CB;
+    --color-secondary-40: #2A5C96;
+    --color-secondary-50: #003675;
+    --color-secondary-60: #002B5E;
+    --color-secondary-70: #002046;
+    --color-secondary-80: #00162F;
+    --color-secondary-90: #000B17;
+    /* 색상 > point */
+    --color-point: #E71825;
+    --color-point-5: #FDF2F3;
+    --color-point-10: #FAD1D3;
+    --color-point-20: #F5A3A8;
+    --color-point-30: #F1747C;
+    --color-point-40: #EC4651;
+    --color-point-50: #E71825;
+    --color-point-60: #B9131E;
+    --color-point-70: #8B0E16;
+    --color-point-80: #5C0A0F;
+    --color-point-90: #2E0507;
+
+    /* 색상 > gray */
+    --color-gray-5: #F8F8F8;
+    --color-gray-10: #F0F0F0;
+    --color-gray-20: #E4E4E4;
+    --color-gray-30: #D8D8D8;
+    --color-gray-40: #C6C6C6;
+    --color-gray-50: #8E8E8E;
+    --color-gray-60: #717171;
+    --color-gray-70: #555555;
+    --color-gray-80: #2D2D2D;
+    --color-gray-90: #1D1D1D;
+
+    --color-main : #46AF83;  /*#00A1A9*/
+    --color-main-5 : #3284FF;
+    --color-main-10 : #E9F2FF;
+    --color-main-15 : #D6E6FF;
+    --color-main-20 : #E5F6F6;
+    --color-main-25 : #EAF3FF;
+    --color-main-30 : #FCEDED;
+    --color-main-35 : #DAEFE6;
+    --color-main-40 : #CCECEE;
+    --color-main-45 : #F09797;
+    
+	--color-main-50 : #0f49b5;
+	--color-main-55 : #ADCEFF;
+    --color-main-60 : #003284;
+    --color-main-65 : #84B5FF;
+	--color-main-70 : #031c70;
+    --color-main-75 : #00A1A9;
+	--color-main-80 : #06065c;
+	--color-main-85 : #003077;
+	--color-main-90 : #030337;
+    --color-main-black : #10141A;
+    
+	--color-important : #E55151;
+	--color-important-5 : #FADCDC;
+
+    --color-main-gray : #4C5258;
+    --color-main-gray-5 : #82868C;
+    --color-main-gray-10 : #A2A6AC;
+    --color-main-gray-20 : #D2D6DC;
+    --color-main-gray-30 : #C4C8CE;
+    --color-main-gray-40 : #f2f4f8;
+    --color-main-gray-45 : #f4f6fa;
+    --color-main-gray-50 : #E2E6EC;
+    --color-main-gray-60 : #B4B8BE;
+
+    --color-main-gray-70 : #3f4e73;
+    --color-main-gray-80 : #2b395d;
+    --color-main-gray-90 : #1b2747;
+
+    /* ------ border ------ */
+    --radius-1: 0.1rem;
+    --radius-2: 0.2rem;
+    --radius-4: 0.4rem;
+    --radius-6: 0.6rem;
+    --radius-7: 0.7rem;
+    --radius-8: 0.8rem;
+    --radius-10: 1rem;
+    --radius-12: 1.2rem;
+    --radius-13: 1.3rem;
+    --radius-16: 1.6rem;
+    --radius-20: 2rem;
+    --radius-100: 10rem;
+    --radius-full: 9999px;
+
+    /* ------ 서체 ------ */
+    --fz-display-sm: 4rem;
+    --fz-display-md: 5rem;
+    --fz-display-lg: 6.6rem;
+    --fz-heading-sm: 3.2rem;
+    --fz-heading-md: 4rem;
+    --fz-heading-lg: 5rem;
+    --fz-title-xsm: 1.5rem;
+    --fz-title-sm: 1.7rem;
+    --fz-title-md: 1.9rem;
+    --fz-title-lg: 2.1rem;
+    --fz-title-xlg: 2.5rem;
+    --fz-title-xxlg: 3.2rem;
+    --fz-body-sm: 1.5rem;
+    --fz-body-md: 1.7rem;
+    --fz-body-lg: 1.9rem;
+    --fz-link-sm: 1.5rem;
+    --fz-link-md: 1.7rem;
+    --fz-link-lg: 1.9rem;
+    --fz-detail-sm: 1.3rem;
+    --fz-detail-md: 1.5rem;
+    --fz-detail-lg: 1.7rem;
+    --fz-label-xsm: 1.3rem;
+    --fz-label-sm: 1.5rem;
+    --fz-label-md: 1.7rem;
+    --fz-label-lg: 1.9rem;
+    
+    --mo-fz-sm: 1.2rem;
+    --mo-fz-smd: 1.4rem;
+    --mo-fz-md: 1.6rem;
+    --mo-fz-lg: 1.8rem;
+    --mo-fz-xlg: 2rem;
+    --mo-fz-xxlg: 3rem;
+    
+    --fz-weight-100: 100;
+    --fz-weight-200: 200;
+    --fz-weight-300: 300;
+    --fz-weight-400: 400;
+    --fz-weight-500: 500;
+    --fz-weight-600: 600;
+    --fz-weight-700: 700;
+    --fz-weight-800: 800;
+    --fz-weight-900: 900;
+}
+
+/*-------------------------------------------------------------------
+	분류이름 : font weight
+	분류그룹 : Typography
+-------------------------------------------------------------------*/
+.fw-100 {font-weight: 100;}
+.fw-200 {font-weight: 200;}
+.fw-300 {font-weight: 300;}
+.fw-400 {font-weight: 400 !important;}
+.fw-500 {font-weight: 500;}
+.fw-600 {font-weight: 600;}
+.fw-700 {font-weight: 700;}
+.fw-800 {font-weight: 800;}
+.fw-900 {font-weight: 900;}
+
+/*-------------------------------------------------------------------
+	분류이름 : text-align
+	분류그룹 : Typography
+-------------------------------------------------------------------*/
+.text-align-left {text-align: left !important}
+.text-align-center {text-align: center !important}
+
+/*-------------------------------------------------------------------
+	분류이름 : line-height
+	분류그룹 : Typography
+-------------------------------------------------------------------*/
+.line-height-none {line-height: 1;}
+.line-height-sm {line-height: 1.25;}
+.line-height-md {line-height: 1.5;}
+
+/*-------------------------------------------------------------------
+	분류이름 : word-break
+	분류그룹 : Typography
+-------------------------------------------------------------------*/
+.word-break-words {word-break: keep-all; overflow-wrap: break-word;}
+.word-break-all {word-break: break-all; overflow-wrap: anywhere;}
+.word-break-keep {word-break: keep-all; overflow-wrap: normal;}
+
+/*-------------------------------------------------------------------
+	분류이름 : text-overflow
+	분류그룹 : Typography
+-------------------------------------------------------------------*/
+.text-overflow-1 {overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.text-overflow-2 {display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
+.text-overflow-3 {display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 3;}
+.text-overflow-4 {display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 4;}
+.text-overflow-5 {display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 5;}
+
+/*-------------------------------------------------------------------
+	분류이름 : width
+	분류그룹 : sizing
+-------------------------------------------------------------------*/
+.w-auto {width: auto;}
+.w-0  {width: 0;}
+/* rem level */
+.w-02 {width: var(--sp-02);}
+.w-04 {width: var(--sp-04);}
+.w-08 {width: var(--sp-08);}
+.w-12 {width: var(--sp-12);}
+.w-16 {width: var(--sp-16);}
+.w-20 {width: var(--sp-20);}
+.w-24 {width: var(--sp-24);}
+.w-28 {width: var(--sp-28);}
+.w-32 {width: var(--sp-32);}
+.w-36 {width: var(--sp-36);}
+.w-40 {width: var(--sp-40);}
+.w-44 {width: var(--sp-44);}
+.w-48 {width: var(--sp-48);}
+.w-52 {width: var(--sp-52);}
+.w-56 {width: var(--sp-56);}
+.w-60 {width: var(--sp-60);}
+.w-64 {width: var(--sp-64);}
+.w-68 {width: var(--sp-68);}
+.w-72 {width: var(--sp-72);}
+.w-76 {width: var(--sp-76);}
+.w-80 {width: var(--sp-80);}
+.w-84 {width: var(--sp-84);}
+.w-88 {width: var(--sp-88);}
+.w-92 {width: var(--sp-92);}
+.w-96 {width: var(--sp-96);}
+.w-100 {width: var(--sp-100);}
+/* percent */
+.w-5p {width: 5%;}
+.w-10p {width: 10%;}
+.w-15p {width: 15%;}
+.w-20p {width: 20%;}
+.w-25p {width: 25%;}
+.w-30p {width: 30%;}
+.w-35p {width: 35%;}
+.w-40p {width: 40%;}
+.w-45p {width: 45%;}
+.w-50p {width: 50%;}
+.w-55p {width: 55%;}
+.w-60p {width: 60%;}
+.w-65p {width: 65%;}
+.w-70p {width: 70%;}
+.w-75p {width: 75%;}
+.w-80p {width: 80%;}
+.w-85p {width: 85%;}
+.w-90p {width: 90%;}
+.w-95p {width: 95%;}
+.w-100p {width: 100%;}
+.w-screen {width: 100vw;}
+
+/*-------------------------------------------------------------------
+	분류이름 : height
+	분류그룹 : sizing
+-------------------------------------------------------------------*/
+.h-auto {height: auto;}
+.h-0 {height: 0;}
+/* rem level */
+.h-02 {height: var(--sp-02);}
+.h-04 {height: var(--sp-04);}
+.h-08 {height: var(--sp-08);}
+.h-12 {height: var(--sp-12);}
+.h-16 {height: var(--sp-16);}
+.h-20 {height: var(--sp-20);}
+.h-24 {height: var(--sp-24);}
+.h-28 {height: var(--sp-28);}
+.h-32 {height: var(--sp-32);}
+.h-36 {height: var(--sp-36);}
+.h-40 {height: var(--sp-40);}
+.h-44 {height: var(--sp-44);}
+.h-48 {height: var(--sp-48);}
+.h-52 {height: var(--sp-52);}
+.h-56 {height: var(--sp-56);}
+.h-60 {height: var(--sp-60);}
+.h-64 {height: var(--sp-64);}
+.h-68 {height: var(--sp-68);}
+.h-72 {height: var(--sp-72);}
+.h-76 {height: var(--sp-76);}
+.h-80 {height: var(--sp-80);}
+.h-84 {height: var(--sp-84);}
+.h-88 {height: var(--sp-88);}
+.h-92 {height: var(--sp-92);}
+.h-96 {height: var(--sp-96);}
+.h-100 {height: var(--sp-100);}
+/* percent */
+.h-5p {height: 5%;}
+.h-10p {height: 10%;}
+.h-15p {height: 15%;}
+.h-20p {height: 20%;}
+.h-25p {height: 25%;}
+.h-30p {height: 30%;}
+.h-35p {height: 35%;}
+.h-40p {height: 40%;}
+.h-45p {height: 45%;}
+.h-50p {height: 50%;}
+.h-55p {height: 55%;}
+.h-60p {height: 60%;}
+.h-65p {height: 65%;}
+.h-70p {height: 70%;}
+.h-75p {height: 75%;}
+.h-80p {height: 80%;}
+.h-85p {height: 85%;}
+.h-90p {height: 90%;}
+.h-95p {height: 95%;}
+.h-100p {height: 100%;}
+.h-screen {height: 100vh;}
+
+/*-------------------------------------------------------------------
+	분류이름 : Margin
+	분류그룹 : sizing
+-------------------------------------------------------------------*/
+.m-auto {margin: auto !important;}
+.m-0 {margin: 0;}
+.m-02 {margin: var(--sp-02);}
+.m-04 {margin: var(--sp-04);}
+.m-08 {margin: var(--sp-08);}
+.m-12 {margin: var(--sp-12);}
+.m-16 {margin: var(--sp-16);}
+.m-20 {margin: var(--sp-20);}
+.m-24 {margin: var(--sp-24);}
+.m-28 {margin: var(--sp-28);}
+.m-32 {margin: var(--sp-32);}
+.m-36 {margin: var(--sp-36);}
+.m-40 {margin: var(--sp-40);}
+.m-44 {margin: var(--sp-44);}
+.m-48 {margin: var(--sp-48);}
+.m-52 {margin: var(--sp-52);}
+.m-56 {margin: var(--sp-56);}
+.m-60 {margin: var(--sp-60);}
+.m-64 {margin: var(--sp-64);}
+.m-68 {margin: var(--sp-68);}
+.m-72 {margin: var(--sp-72);}
+.m-76 {margin: var(--sp-76);}
+.m-80 {margin: var(--sp-80);}
+.m-84 {margin: var(--sp-84);}
+.m-88 {margin: var(--sp-88);}
+.m-92 {margin: var(--sp-92);}
+.m-96 {margin: var(--sp-96);}
+.m-100 {margin: var(--sp-100);}
+/* top */
+.m-t-auto {margin-top: auto;}
+.m-t-0  {margin-top: 0;}
+.m-t-02 {margin-top: var(--sp-02);}
+.m-t-04 {margin-top: var(--sp-04);}
+.m-t-08 {margin-top: var(--sp-08);}
+.m-t-12 {margin-top: var(--sp-12);}
+.m-t-16 {margin-top: var(--sp-16);}
+.m-t-20 {margin-top: var(--sp-20);}
+.m-t-24 {margin-top: var(--sp-24);}
+.m-t-28 {margin-top: var(--sp-28);}
+.m-t-32 {margin-top: var(--sp-32);}
+.m-t-36 {margin-top: var(--sp-36);}
+.m-t-40 {margin-top: var(--sp-40);}
+.m-t-44 {margin-top: var(--sp-44);}
+.m-t-48 {margin-top: var(--sp-48);}
+.m-t-52 {margin-top: var(--sp-52);}
+.m-t-56 {margin-top: var(--sp-56);}
+.m-t-60 {margin-top: var(--sp-60);}
+.m-t-64 {margin-top: var(--sp-64);}
+.m-t-68 {margin-top: var(--sp-68);}
+.m-t-72 {margin-top: var(--sp-72);}
+.m-t-76 {margin-top: var(--sp-76);}
+.m-t-80 {margin-top: var(--sp-80);}
+.m-t-84 {margin-top: var(--sp-84);}
+.m-t-88 {margin-top: var(--sp-88);}
+.m-t-92 {margin-top: var(--sp-92);}
+.m-t-96 {margin-top: var(--sp-96);}
+.m-t-100 {margin-top: var(--sp-100);}
+/* left */
+.m-l-auto {margin-left: auto;}
+.m-l-0  {margin-left: 0;}
+.m-l-02 {margin-left: var(--sp-02);}
+.m-l-04 {margin-left: var(--sp-04);}
+.m-l-08 {margin-left: var(--sp-08);}
+.m-l-12 {margin-left: var(--sp-12);}
+.m-l-16 {margin-left: var(--sp-16);}
+.m-l-20 {margin-left: var(--sp-20);}
+.m-l-24 {margin-left: var(--sp-24);}
+.m-l-28 {margin-left: var(--sp-28);}
+.m-l-32 {margin-left: var(--sp-32);}
+.m-l-36 {margin-left: var(--sp-36);}
+.m-l-40 {margin-left: var(--sp-40);}
+.m-l-44 {margin-left: var(--sp-44);}
+.m-l-48 {margin-left: var(--sp-48);}
+.m-l-52 {margin-left: var(--sp-52);}
+.m-l-56 {margin-left: var(--sp-56);}
+.m-l-60 {margin-left: var(--sp-60);}
+.m-l-64 {margin-left: var(--sp-64);}
+.m-l-68 {margin-left: var(--sp-68);}
+.m-l-72 {margin-left: var(--sp-72);}
+.m-l-76 {margin-left: var(--sp-76);}
+.m-l-80 {margin-left: var(--sp-80);}
+.m-l-84 {margin-left: var(--sp-84);}
+.m-l-88 {margin-left: var(--sp-88);}
+.m-l-92 {margin-left: var(--sp-92);}
+.m-l-96 {margin-left: var(--sp-96);}
+.m-l-100 {margin-left: var(--sp-100);}
+/* right */
+.m-r-auto {margin-right: auto;}
+.m-r-0  {margin-right: 0;}
+.m-r-02 {margin-right: var(--sp-02);}
+.m-r-04 {margin-right: var(--sp-04);}
+.m-r-08 {margin-right: var(--sp-08);}
+.m-r-12 {margin-right: var(--sp-12);}
+.m-r-16 {margin-right: var(--sp-16);}
+.m-r-20 {margin-right: var(--sp-20);}
+.m-r-24 {margin-right: var(--sp-24);}
+.m-r-28 {margin-right: var(--sp-28);}
+.m-r-32 {margin-right: var(--sp-32);}
+.m-r-36 {margin-right: var(--sp-36);}
+.m-r-40 {margin-right: var(--sp-40);}
+.m-r-44 {margin-right: var(--sp-44);}
+.m-r-48 {margin-right: var(--sp-48);}
+.m-r-52 {margin-right: var(--sp-52);}
+.m-r-56 {margin-right: var(--sp-56);}
+.m-r-60 {margin-right: var(--sp-60);}
+.m-r-64 {margin-right: var(--sp-64);}
+.m-r-68 {margin-right: var(--sp-68);}
+.m-r-72 {margin-right: var(--sp-72);}
+.m-r-76 {margin-right: var(--sp-76);}
+.m-r-80 {margin-right: var(--sp-80);}
+.m-r-84 {margin-right: var(--sp-84);}
+.m-r-88 {margin-right: var(--sp-88);}
+.m-r-92 {margin-right: var(--sp-92);}
+.m-r-96 {margin-right: var(--sp-96);}
+.m-r-100 {margin-right: var(--sp-100);}
+/* bottom */
+.m-b-auto {margin-bottom: auto;}
+.m-b-0  {margin-bottom: 0;}
+.m-b-02 {margin-bottom: var(--sp-02);}
+.m-b-04 {margin-bottom: var(--sp-04);}
+.m-b-08 {margin-bottom: var(--sp-08);}
+.m-b-12 {margin-bottom: var(--sp-12);}
+.m-b-16 {margin-bottom: var(--sp-16);}
+.m-b-20 {margin-bottom: var(--sp-20);}
+.m-b-24 {margin-bottom: var(--sp-24);}
+.m-b-28 {margin-bottom: var(--sp-28);}
+.m-b-32 {margin-bottom: var(--sp-32);}
+.m-b-36 {margin-bottom: var(--sp-36);}
+.m-b-40 {margin-bottom: var(--sp-40);}
+.m-b-44 {margin-bottom: var(--sp-44);}
+.m-b-48 {margin-bottom: var(--sp-48);}
+.m-b-52 {margin-bottom: var(--sp-52);}
+.m-b-56 {margin-bottom: var(--sp-56);}
+.m-b-60 {margin-bottom: var(--sp-60);}
+.m-b-64 {margin-bottom: var(--sp-64);}
+.m-b-68 {margin-bottom: var(--sp-68);}
+.m-b-72 {margin-bottom: var(--sp-72);}
+.m-b-76 {margin-bottom: var(--sp-76);}
+.m-b-80 {margin-bottom: var(--sp-80);}
+.m-b-84 {margin-bottom: var(--sp-84);}
+.m-b-88 {margin-bottom: var(--sp-88);}
+.m-b-92 {margin-bottom: var(--sp-92);}
+.m-b-96 {margin-bottom: var(--sp-96);}
+.m-b-100 {margin-bottom: var(--sp-100);}
+
+/*-------------------------------------------------------------------
+	분류이름 : Padding
+	분류그룹 : sizing
+-------------------------------------------------------------------*/
+.p-0 {padding: 0;}
+.p-02 {padding: var(--sp-02);}
+.p-04 {padding: var(--sp-04);}
+.p-08 {padding: var(--sp-08);}
+.p-12 {padding: var(--sp-12);}
+.p-16 {padding: var(--sp-16);}
+.p-20 {padding: var(--sp-20);}
+.p-24 {padding: var(--sp-24);}
+.p-28 {padding: var(--sp-28);}
+.p-32 {padding: var(--sp-32);}
+.p-36 {padding: var(--sp-36);}
+.p-40 {padding: var(--sp-40);}
+.p-44 {padding: var(--sp-44);}
+.p-48 {padding: var(--sp-48);}
+.p-52 {padding: var(--sp-52);}
+.p-56 {padding: var(--sp-56);}
+.p-60 {padding: var(--sp-60);}
+.p-64 {padding: var(--sp-64);}
+.p-68 {padding: var(--sp-68);}
+.p-72 {padding: var(--sp-72);}
+.p-76 {padding: var(--sp-76);}
+.p-80 {padding: var(--sp-80);}
+.p-84 {padding: var(--sp-84);}
+.p-88 {padding: var(--sp-88);}
+.p-92 {padding: var(--sp-92);}
+.p-96 {padding: var(--sp-96);}
+.p-100 {padding: var(--sp-100);}
+/* top */
+.p-t-0 {padding-top: 0;}
+.p-t-02 {padding-top: var(--sp-02);}
+.p-t-04 {padding-top: var(--sp-04);}
+.p-t-08 {padding-top: var(--sp-08);}
+.p-t-12 {padding-top: var(--sp-12);}
+.p-t-16 {padding-top: var(--sp-16);}
+.p-t-20 {padding-top: var(--sp-20);}
+.p-t-24 {padding-top: var(--sp-24);}
+.p-t-28 {padding-top: var(--sp-28);}
+.p-t-32 {padding-top: var(--sp-32);}
+.p-t-36 {padding-top: var(--sp-36);}
+.p-t-40 {padding-top: var(--sp-40);}
+.p-t-44 {padding-top: var(--sp-44);}
+.p-t-48 {padding-top: var(--sp-48);}
+.p-t-52 {padding-top: var(--sp-52);}
+.p-t-56 {padding-top: var(--sp-56);}
+.p-t-60 {padding-top: var(--sp-60);}
+.p-t-64 {padding-top: var(--sp-64);}
+.p-t-68 {padding-top: var(--sp-68);}
+.p-t-72 {padding-top: var(--sp-72);}
+.p-t-76 {padding-top: var(--sp-76);}
+.p-t-80 {padding-top: var(--sp-80);}
+.p-t-84 {padding-top: var(--sp-84);}
+.p-t-88 {padding-top: var(--sp-88);}
+.p-t-92 {padding-top: var(--sp-92);}
+.p-t-96 {padding-top: var(--sp-96);}
+.p-t-100 {padding-top: var(--sp-100);}
+/* left */
+.p-l-0 {padding-left: 0;}
+.p-l-02 {padding-left: var(--sp-02);}
+.p-l-04 {padding-left: var(--sp-04);}
+.p-l-08 {padding-left: var(--sp-08);}
+.p-l-12 {padding-left: var(--sp-12);}
+.p-l-16 {padding-left: var(--sp-16);}
+.p-l-20 {padding-left: var(--sp-20);}
+.p-l-24 {padding-left: var(--sp-24);}
+.p-l-28 {padding-left: var(--sp-28);}
+.p-l-32 {padding-left: var(--sp-32);}
+.p-l-36 {padding-left: var(--sp-36);}
+.p-l-40 {padding-left: var(--sp-40);}
+.p-l-44 {padding-left: var(--sp-44);}
+.p-l-48 {padding-left: var(--sp-48);}
+.p-l-52 {padding-left: var(--sp-52);}
+.p-l-56 {padding-left: var(--sp-56);}
+.p-l-60 {padding-left: var(--sp-60);}
+.p-l-64 {padding-left: var(--sp-64);}
+.p-l-68 {padding-left: var(--sp-68);}
+.p-l-72 {padding-left: var(--sp-72);}
+.p-l-76 {padding-left: var(--sp-76);}
+.p-l-80 {padding-left: var(--sp-80);}
+.p-l-84 {padding-left: var(--sp-84);}
+.p-l-88 {padding-left: var(--sp-88);}
+.p-l-92 {padding-left: var(--sp-92);}
+.p-l-96 {padding-left: var(--sp-96);}
+.p-l-100 {padding-left: var(--sp-100);}
+/* right */
+.p-r-0 {padding-right: 0;}
+.p-r-02 {padding-right: var(--sp-02);}
+.p-r-04 {padding-right: var(--sp-04);}
+.p-r-08 {padding-right: var(--sp-08);}
+.p-r-12 {padding-right: var(--sp-12);}
+.p-r-16 {padding-right: var(--sp-16);}
+.p-r-20 {padding-right: var(--sp-20);}
+.p-r-24 {padding-right: var(--sp-24);}
+.p-r-28 {padding-right: var(--sp-28);}
+.p-r-32 {padding-right: var(--sp-32);}
+.p-r-36 {padding-right: var(--sp-36);}
+.p-r-40 {padding-right: var(--sp-40);}
+.p-r-44 {padding-right: var(--sp-44);}
+.p-r-48 {padding-right: var(--sp-48);}
+.p-r-52 {padding-right: var(--sp-52);}
+.p-r-56 {padding-right: var(--sp-56);}
+.p-r-60 {padding-right: var(--sp-60);}
+.p-r-64 {padding-right: var(--sp-64);}
+.p-r-68 {padding-right: var(--sp-68);}
+.p-r-72 {padding-right: var(--sp-72);}
+.p-r-76 {padding-right: var(--sp-76);}
+.p-r-80 {padding-right: var(--sp-80);}
+.p-r-84 {padding-right: var(--sp-84);}
+.p-r-88 {padding-right: var(--sp-88);}
+.p-r-92 {padding-right: var(--sp-92);}
+.p-r-96 {padding-right: var(--sp-96);}
+.p-r-100 {padding-right: var(--sp-100);}
+/* bottom */
+.p-b-0 {padding-bottom: 0;}
+.p-b-02 {padding-bottom: var(--sp-02);}
+.p-b-04 {padding-bottom: var(--sp-04);}
+.p-b-08 {padding-bottom: var(--sp-08);}
+.p-b-12 {padding-bottom: var(--sp-12);}
+.p-b-16 {padding-bottom: var(--sp-16);}
+.p-b-20 {padding-bottom: var(--sp-20);}
+.p-b-24 {padding-bottom: var(--sp-24);}
+.p-b-28 {padding-bottom: var(--sp-28);}
+.p-b-32 {padding-bottom: var(--sp-32);}
+.p-b-36 {padding-bottom: var(--sp-36);}
+.p-b-40 {padding-bottom: var(--sp-40);}
+.p-b-44 {padding-bottom: var(--sp-44);}
+.p-b-48 {padding-bottom: var(--sp-48);}
+.p-b-52 {padding-bottom: var(--sp-52);}
+.p-b-56 {padding-bottom: var(--sp-56);}
+.p-b-60 {padding-bottom: var(--sp-60);}
+.p-b-64 {padding-bottom: var(--sp-64);}
+.p-b-68 {padding-bottom: var(--sp-68);}
+.p-b-72 {padding-bottom: var(--sp-72);}
+.p-b-76 {padding-bottom: var(--sp-76);}
+.p-b-80 {padding-bottom: var(--sp-80);}
+.p-b-84 {padding-bottom: var(--sp-84);}
+.p-b-88 {padding-bottom: var(--sp-88);}
+.p-b-92 {padding-bottom: var(--sp-92);}
+.p-b-96 {padding-bottom: var(--sp-96);}
+.p-b-100 {padding-bottom: var(--sp-100);}
+
+/*-------------------------------------------------------------------
+	분류이름 : blind
+	분류그룹 : Accessibility
+-------------------------------------------------------------------*/
+.blind {position: absolute; overflow: hidden; width: 1px; height: 1px; margin: -1px; clip: rect(0 0 0 0);}
+
+
+/*-------------------------------------------------------------------
+	분류이름 : 공통
+	분류그룹 : essential
+-------------------------------------------------------------------*/
+/* 스크롤 전파 방지 */
+.prevent-scroll {overscroll-behavior: contain; -ms-scroll-chaining: none;}
+
+/* 스크롤바 커스텀 */
+@media (hover: hover) and (pointer: fine) {
+	.scrollbar-custom::-webkit-scrollbar {width: 6px; height: 6px; box-sizing: content-box;}
+	.scrollbar-custom::-webkit-scrollbar-thumb {border-radius: 6px; background: var(--color-gray-50);}
+	.scrollbar-custom::-webkit-scrollbar-track {padding: 0 0.6rem; border-radius: 1rem; background: var(--color-gray-20);}
+}
+
+

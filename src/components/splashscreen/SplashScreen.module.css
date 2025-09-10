@@ -1,0 +1,110 @@
+#splash-screen {background-color: #3284FF;}
+
+.splash-bg {display: flex; flex-direction: column; align-items: center; justify-content: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #3284FF; z-index: 10000; animation-name: bg-change;
+animation-duration: 2s;
+animation-delay: 1.3s;
+animation-fill-mode: forwards;
+}
+.splash-bg .splash-center {position: absolute; top: 45%; left: 50%; width: 100%; height: 115px; transform: translate(-50%, -50%);}
+.splash-bg .splash-center .img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: fade-out;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.splash-bg .splash-center .txt-box {
+  visibility: hidden;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-08);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 50vw;
+  min-width: 40vw;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+.splash-bg .splash-center .txt-box p {font-size: var(--mo-fz-smd); color: var(--color-main-gray-10); font-weight: var(--fz-weight-700);}
+.splash-bg .splash-center .txt-box span {position: relative; font-size: var(--mo-fz-md); counter-reset: var(--color-main-gray); text-align: center;}
+.splash-bg .splash-center .txt-box span::before {content: ""; position: absolute; top: 0; right: calc(100% + 4px); width: 9px; height: 9px; background: url(../../images/common/quotes.svg) no-repeat center; }
+.splash-bg .splash-center .txt-box span::after {content: ""; position: absolute; top: 0; left: calc(100% + 4px); width: 9px; height: 9px; background: url(../../images/common/quotes.svg) no-repeat center; transform: rotate(180deg); }
+
+.splash-bg .splash-bottom {display: flex; flex-direction: column; align-items: center; justify-content: center; position: absolute; bottom: 34px; width: 100%; color: var(--color-white);}
+.splash-bg .splash-bottom strong {font-size: var(--mo-fz-md); width: 100%; text-align: center;}
+.splash-bg .splash-bottom p {width: 100%; font-size: var(--mo-fz-smd); text-align: center; }
+
+.splash-bg .splash-bottom :is(strong, p) {
+  animation-name: text-change;
+  animation-duration: 3s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+} 
+
+
+/* @keyframes */
+@keyframes bg-change {
+  /* keyframe */
+  from {
+    background-color: #3284FF;
+  }
+  /* keyframe */
+  to {
+    background-color: #fff;
+  }
+}
+
+
+@keyframes text-change {
+  /* keyframe */
+  from {
+    color: #fff;
+  }
+  /* keyframe */
+  to {
+    color: var(--color-main-gray-5);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+  }
+  /* keyframe */
+  to {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+
+@keyframes fade-in {
+  from {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  /* keyframe */
+  to {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+
