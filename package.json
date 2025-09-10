@@ -66,6 +66,7 @@
     "gh-pages": "^6.3.0",
     "source-map-loader": "^5.0.0"
   },
+  "homepage": "https://munjinsu.github.io/naver-map",
   "scripts": {
     "start": "set PORT=3002 && react-scripts start",
     "build": "react-scripts build",
@@ -92,6 +93,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://munjinsu.github.io/naver-map"
+  }
 }

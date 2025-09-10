@@ -1,4 +1,4 @@
-import RootRoutes from './routes';
+import RootRoutes from './routes/RootRoutes';
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import './index.css';
@@ -14,29 +14,14 @@ import { setLoadingHandler } from './assets/js/comm';
 import LoadingModal from './components/comm/LoadingModal';
 
 function App() {
-    const { setLoading } = useLoading();
-
-    const [splashComplete, setSplashComplete] = useState(() => {
-        if (typeof window === 'undefined') return false;
-        return !!sessionStorage.getItem('splashShown');
-    });
-
-    useEffect(() => {
-        setLoadingHandler(setLoading);
-    }, [setLoading]);
-
+    
     return (
-        <React.StrictMode>
-            <LoadingModal />
-            <RootRoutes />
-        </React.StrictMode>
+         <RootRoutes />
     );
 }
 
 export default function Root() {
     return (
-        <LoadingProvider>
             <App />
-        </LoadingProvider>
     );
 }
