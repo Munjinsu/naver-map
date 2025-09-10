@@ -26,10 +26,8 @@ function App() {
     }, [setLoading]);
 
     return (
-        <React.StrictMode>
-            <LoadingModal />
-            <RootRoutes />
-        </React.StrictMode>
+         <RootRoutes />
+       
     );
 }
 
