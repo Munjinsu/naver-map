@@ -55,8 +55,7 @@
     "swiper": "^11.2.0",
     "web-vitals": "^2.1.4",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.0/xlsx-0.20.0.tgz",
-    "xml-js": "^1.6.11",
-    "node-fetch": "^3.3.2"
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
@@ -75,7 +74,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "netlify-build": "react-scripts build",
-    "deploy": "netlify deploy --prod --dir=build"
+    "deploy": "gh-pages -d build"
+
   },
   "proxy": "https://naveropenapi.apigw.ntruss.com",
   "eslintConfig": {

@@ -98,55 +98,35 @@ const PharmacyMap = ({ onMarkerClick, selectedPharmacy, currentPosition }) => {
 
 
   // 약국 검색 REST API 호출
-  fetch(
-    `https://naveropenapi.apigw.ntruss.com/map-place/v1/search?query=약국&coordinate=${currentPosition.lng},${currentPosition.lat}&radius=1000&sort=distance`,
-    {
-      headers: {
-        "X-NCP-APIGW-API-KEY-ID": "1uzxn48abj",
-        "X-NCP-APIGW-API-KEY": "mIJ9XvCfQu9c0yXOArDMWvd9NQ9hNI9X0BXPzUfo",
-      },
-    }
-  )
-    .then((res) => res.json())
-    .then((data) => {
-      markersRef.current.forEach((m) => m.setMap(null));
-      markersRef.current = [];
+  fetch(`/.netlify/functions/pharmacy?lat=${currentPosition.lat}&lng=${currentPosition.lng}`)
+  .then(res => res.json())
+  .then(data => {
+    markersRef.current.forEach((m) => m.setMap(null));
+    markersRef.current = [];
 
-      data.places.forEach((item) => {
-        const marker = new window.naver.maps.Marker({
-          position: new window.naver.maps.LatLng(item.y, item.x),
-          map,
-          title: item.name,
-          icon: {
-            url: mapMarker,
-            size: new window.naver.maps.Size(32, 32),
-            anchor: new window.naver.maps.Point(16, 32),
-          },
-        });
-
-        marker.addListener("click", () => {
-          if (activeMarkerRef.current && activeMarkerRef.current !== marker) {
-            activeMarkerRef.current.setIcon({
-              url: mapMarker,
-              size: new window.naver.maps.Size(32, 32),
-              anchor: new window.naver.maps.Point(16, 32),
-            });
-          }
-
-          marker.setIcon({
-            url: mapMarkerHit,
-            size: new window.naver.maps.Size(42, 52.77),
-            anchor: new window.naver.maps.Point(21, 52.77),
-          });
-
-          activeMarkerRef.current = marker;
-          if (onMarkerClick) onMarkerClick(item);
-        });
-
-        markersRef.current.push(marker);
+    data.places.forEach((item) => {
+      const marker = new window.naver.maps.Marker({
+        position: new window.naver.maps.LatLng(item.y, item.x),
+        map,
+        title: item.name,
+        icon: { url: mapMarker, size: new window.naver.maps.Size(32, 32), anchor: new window.naver.maps.Point(16, 32) }
       });
-    })
-    .catch((err) => console.error(err));
+
+      marker.addListener("click", () => {
+        if (activeMarkerRef.current && activeMarkerRef.current !== marker) {
+          activeMarkerRef.current.setIcon({ url: mapMarker, size: new window.naver.maps.Size(32, 32), anchor: new window.naver.maps.Point(16, 32) });
+        }
+
+        marker.setIcon({ url: mapMarkerHit, size: new window.naver.maps.Size(42, 52.77), anchor: new window.naver.maps.Point(21, 52.77) });
+
+        activeMarkerRef.current = marker;
+        if (onMarkerClick) onMarkerClick(item);
+      });
+
+      markersRef.current.push(marker);
+    });
+  })
+  .catch(err => console.error(err));
 }, [currentPosition]);
 
   return <div ref={mapRef} className="naver-map-box" />;
