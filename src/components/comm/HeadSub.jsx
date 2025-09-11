@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from "react-router-dom";
-import RecordGuideBox from '../box/RecordGuideBox';
+
 
 import { BottomSheet } from 'react-spring-bottom-sheet';
 import 'react-spring-bottom-sheet/dist/style.css';
@@ -61,8 +61,8 @@ const HeadSub = ({title, rightBtn, rightTitle, recordNum, hospitalName, myData, 
                 blocking={false}
             >
 
-                {/* 혈압기록 가이드  */}
-                <RecordGuideBox onClose={onDismiss} code={recordNum} />
+                
+                
         </BottomSheet>
 
 
