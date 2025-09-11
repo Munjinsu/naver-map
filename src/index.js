@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, HashRouter  } from 'react-router-dom';
+import { HashRouter  } from 'react-router-dom';
 import { CookiesProvider } from 'react-cookie';
 import reportWebVitals from './reportWebVitals';
 import { createRoot } from 'react-dom/client';

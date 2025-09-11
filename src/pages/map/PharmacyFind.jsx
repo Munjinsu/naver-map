@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import style from './PharmacyFind.module.css';
 import HeadSub from '../../components/comm/HeadSub';
-import URL from '../../constants/url';
-import { Link, useNavigate } from 'react-router-dom';
+
+import { useNavigate } from 'react-router-dom';
 import iconLocation from '../../images/user/i_location_lg.svg';
 import PharmacyDetailsBox from '../../components/box/PharmacyDetailsBox';
 import PharmacyMap from '../../components/box/PharmacyMap';

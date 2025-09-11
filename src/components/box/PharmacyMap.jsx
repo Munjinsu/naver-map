@@ -10,8 +10,6 @@ const PharmacyMap = ({ onMarkerClick, selectedPharmacy, currentPosition }) => {
   const activeMarkerRef = useRef(null);
   const myLocationMarkerRef = useRef(null);
 
-  const [pharmacyList, setPharmacyList] = useState([]);
-
   const myPosition = currentPosition ? { lat: currentPosition.lat, lng: currentPosition.lng } : null;
 
   
